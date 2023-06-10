@@ -10,5 +10,5 @@ jobs:
       - name: Building tests
         run: make test
       
-      -name: Tests result
+      - name: Tests result
         run: make trun
