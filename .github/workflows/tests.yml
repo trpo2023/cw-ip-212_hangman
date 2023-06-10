@@ -11,4 +11,4 @@ jobs:
         run: make test
       
       - name: Tests result
-        run: make trun
+        run: make run
