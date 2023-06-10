@@ -1,0 +1,11 @@
+# CI
+name: Build program
+on: push
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Building
+        run: make
