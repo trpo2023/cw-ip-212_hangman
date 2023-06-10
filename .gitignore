@@ -1,0 +1,14 @@
+# Исполняемые файлы
+main_executable
+test_executable
+*.exe
+
+# Директория временных файлов VS Code
+.vscode/
+
+# Артефакты сборки программы
+*.o
+*.a
+
+# Конфигурационные файлы WSL
+*:Zone.Identifier
